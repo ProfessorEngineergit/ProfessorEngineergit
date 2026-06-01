@@ -12,6 +12,13 @@
   <img src="https://raw.githubusercontent.com/ProfessorEngineergit/ProfessorEngineergit/main/header.svg" width="100%" alt="Bahrian Novotny" />
 </p>
 
+<!-- ============ UNIVERSE BANNER (click to fly through it) ============ -->
+<p align="center">
+  <a href="https://professorengineergit.github.io/Bahrian_Novotny_My_Universe/">
+    <img src="https://raw.githubusercontent.com/ProfessorEngineergit/ProfessorEngineergit/main/universe.svg" width="100%" alt="Enter my universe — click to fly a starship through my projects" />
+  </a>
+</p>
+
 <!-- ============ TYPING SUBTITLE ============ -->
 <p align="center">
   <a href="https://professorengineergit.github.io/Bahrian_Novotny_My_Universe/">

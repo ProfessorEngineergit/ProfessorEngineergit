@@ -61,7 +61,7 @@ class BahrianNovotny:
 
 ---
 
-## 🛠️ Tech & tools
+## 🛠️ Techstack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=ts,js,swift,python,html,css,threejs,react,nodejs,vercel,git,github,vscode,figma&perline=14" alt="tech stack" />

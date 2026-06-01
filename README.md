@@ -91,7 +91,7 @@ class BahrianNovotny:
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ProfessorEngineergit&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8&title_color=FFCE7B" alt="trophies" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ProfessorEngineergit&bg_color=03040A&color=FFCE7B&line=FF8A3C&point=FFFFFF&area=true&hide_border=true&area_color=1B2748" width="100%" alt="activity graph" />
 </p>
 
 ---

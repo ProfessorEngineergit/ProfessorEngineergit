@@ -23,10 +23,11 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # one file per line; query params customise the colours
+          # one file per line; query params customise the colours.
+          # light: pale grey empty cells; dark: visible slate-grey empty cells.
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=ff8a3c&color_dots=#0d1117,#3a2a14,#8a5a1f,#ff9d3c,#ffd27a
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=ffce7b&color_dots=#0d1117,#3a2a14,#8a5a1f,#ff9d3c,#ffd27a
+            dist/github-contribution-grid-snake.svg?color_snake=ff8a3c&color_dots=#ebedf0,#ffd9a6,#ff9d3c,#ff7a1f,#c2410c
+            dist/github-contribution-grid-snake-dark.svg?color_snake=ffce7b&color_dots=#30363d,#5a3a14,#9a6a1f,#ff9d3c,#ffd27a
 
       - name: Push the SVGs to the "output" branch
         uses: crazy-max/ghaction-github-pages@v3.1.0

@@ -57,14 +57,14 @@ class BahrianNovotny:
 - 🔭 I build things at the intersection of **web, hardware control, and space-grade curiosity**.
 - 🛰️ My portfolio literally lets you **fly a starship through my universe** to explore my projects.
 - 🎥 I share what I make on **YouTube**.
-- 🌱 Currently going deeper into **JavaScript, web apps, and creative engineering**.
+- 🌱 Currently going deeper into **TypeScript, Swift, Three.js, and creative engineering**.
 
 ---
 
 ## 🛠️ Tech & tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,html,css,python,nodejs,react,git,github,vscode,figma&perline=10" alt="tech stack" />
+  <img src="https://skillicons.dev/icons?i=ts,js,swift,python,html,css,threejs,react,nodejs,vercel,git,github,vscode,figma&perline=14" alt="tech stack" />
 </p>
 
 ---

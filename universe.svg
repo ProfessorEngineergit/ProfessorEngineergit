@@ -215,60 +215,63 @@
     </line>
   </g>
 
-  <!-- ============ STARSHIP (USS Enterprise — top-down hero) ============ -->
+  <!-- ============ STARSHIP (USS Enterprise — 3/4 hero, shaded for depth) ============ -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="-26 0; 34 0; -26 0" dur="24s" repeatCount="indefinite" additive="sum"/>
-    <g transform="translate(600 164)">
+    <animateTransform attributeName="transform" type="translate" values="-28 0; 38 0; -28 0" dur="24s" repeatCount="indefinite" additive="sum"/>
+    <g transform="translate(600 164) scale(1.12)">
       <animateTransform attributeName="transform" type="translate" values="0 -5; 0 5; 0 -5" dur="6.5s" repeatCount="indefinite" additive="sum"/>
-      <g transform="rotate(-13) scale(1 0.82)">
+      <g transform="rotate(-8)">
 
-        <!-- warp trails (rear / left) -->
-        <ellipse cx="-152" cy="-34" rx="58" ry="6" fill="url(#u-warp)" opacity="0.85">
-          <animate attributeName="rx" values="44;72;44" dur="1.3s" repeatCount="indefinite"/>
+        <!-- warp engine trails (behind, left) -->
+        <ellipse cx="-122" cy="-19" rx="80" ry="6" fill="url(#u-warp)" opacity="0.85">
+          <animate attributeName="rx" values="62;94;62" dur="1.3s" repeatCount="indefinite"/>
           <animate attributeName="opacity" values="0.55;0.95;0.55" dur="1.3s" repeatCount="indefinite"/>
         </ellipse>
-        <ellipse cx="-152" cy="34" rx="58" ry="6" fill="url(#u-warp)" opacity="0.85">
-          <animate attributeName="rx" values="44;72;44" dur="1.5s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0.55;0.95;0.55" dur="1.5s" repeatCount="indefinite"/>
+        <ellipse cx="-116" cy="-33" rx="66" ry="5" fill="url(#u-warp)" opacity="0.7">
+          <animate attributeName="rx" values="52;82;52" dur="1.5s" repeatCount="indefinite"/>
         </ellipse>
 
-        <!-- nacelle support pylons -->
-        <path d="M-60 -3 L -88 -30 L -74 -32 L -50 -2 Z" fill="url(#u-hull2)"/>
-        <path d="M-60 3 L -88 30 L -74 32 L -50 2 Z" fill="url(#u-hull2)"/>
+        <!-- nacelle pylons -->
+        <path d="M-16 12 L -44 -18 L -34 -18 L -8 12 Z" fill="url(#u-hull2)"/>
+        <path d="M-12 10 L -34 -31 L -26 -31 L -6 10 Z" fill="#9aa6bf"/>
 
-        <!-- upper warp nacelle -->
-        <g>
-          <rect x="-124" y="-41" width="96" height="14" rx="7" fill="url(#u-hull)"/>
-          <ellipse cx="-28" cy="-34" rx="7" ry="6.5" fill="url(#u-bussard)"><animate attributeName="opacity" values="0.6;1;0.6" dur="1.0s" repeatCount="indefinite"/></ellipse>
-          <rect x="-118" y="-37" width="58" height="3" rx="1.5" fill="#46a8ff"><animate attributeName="opacity" values="0.5;1;0.5" dur="1.4s" repeatCount="indefinite"/></rect>
-          <circle cx="-124" cy="-34" r="6" fill="url(#u-warp)"><animate attributeName="r" values="4;7;4" dur="1.1s" repeatCount="indefinite"/></circle>
+        <!-- upper warp nacelle (far, dimmer for depth) -->
+        <g opacity="0.9">
+          <rect x="-46" y="-35" width="60" height="10" rx="5" fill="url(#u-hull2)"/>
+          <ellipse cx="14" cy="-30" rx="5" ry="5" fill="url(#u-bussard)"><animate attributeName="opacity" values="0.6;1;0.6" dur="1.1s" repeatCount="indefinite"/></ellipse>
+          <rect x="-42" y="-32" width="38" height="2.4" rx="1" fill="#46a8ff"><animate attributeName="opacity" values="0.5;1;0.5" dur="1.6s" repeatCount="indefinite"/></rect>
+          <circle cx="-46" cy="-30" r="5" fill="url(#u-warp)"><animate attributeName="r" values="3.5;6;3.5" dur="1.2s" repeatCount="indefinite"/></circle>
         </g>
-        <!-- lower warp nacelle -->
+
+        <!-- lower warp nacelle (near) -->
         <g>
-          <rect x="-124" y="27" width="96" height="14" rx="7" fill="url(#u-hull)"/>
-          <ellipse cx="-28" cy="34" rx="7" ry="6.5" fill="url(#u-bussard)"><animate attributeName="opacity" values="0.6;1;0.6" dur="1.1s" repeatCount="indefinite"/></ellipse>
-          <rect x="-118" y="31" width="58" height="3" rx="1.5" fill="#46a8ff"><animate attributeName="opacity" values="0.5;1;0.5" dur="1.5s" repeatCount="indefinite"/></rect>
-          <circle cx="-124" cy="34" r="6" fill="url(#u-warp)"><animate attributeName="r" values="4;7;4" dur="1.2s" repeatCount="indefinite"/></circle>
+          <rect x="-50" y="-24" width="64" height="12" rx="6" fill="url(#u-hull)"/>
+          <rect x="-50" y="-24" width="64" height="4" rx="2" fill="#ffffff" opacity="0.35"/>
+          <ellipse cx="16" cy="-18" rx="6" ry="6" fill="url(#u-bussard)"><animate attributeName="opacity" values="0.6;1;0.6" dur="1.0s" repeatCount="indefinite"/></ellipse>
+          <rect x="-46" y="-21" width="42" height="2.8" rx="1.4" fill="#46a8ff"><animate attributeName="opacity" values="0.5;1;0.5" dur="1.4s" repeatCount="indefinite"/></rect>
+          <circle cx="-50" cy="-18" r="6" fill="url(#u-warp)"><animate attributeName="r" values="4;7;4" dur="1.1s" repeatCount="indefinite"/></circle>
         </g>
 
         <!-- secondary (engineering) hull -->
-        <ellipse cx="-30" cy="0" rx="56" ry="13" fill="url(#u-hull)"/>
-        <ellipse cx="-36" cy="0" rx="40" ry="6" fill="#eef3ff" opacity="0.35"/>
+        <ellipse cx="-6" cy="18" rx="50" ry="12" fill="url(#u-hull)"/>
+        <ellipse cx="-10" cy="14" rx="36" ry="5" fill="#eef3ff" opacity="0.4"/>
+        <!-- deflector dish at front of hull -->
+        <circle cx="42" cy="18" r="6" fill="url(#u-deflector)"><animate attributeName="opacity" values="0.7;1;0.7" dur="2.4s" repeatCount="indefinite"/></circle>
 
-        <!-- saucer (primary hull) -->
-        <circle cx="44" cy="0" r="52" fill="url(#u-saucer)"/>
-        <circle cx="44" cy="0" r="52" fill="none" stroke="#7e8caa" stroke-width="1.6" opacity="0.65"/>
-        <circle cx="44" cy="0" r="35" fill="none" stroke="#9fb0d0" stroke-width="1.2" opacity="0.5"/>
-        <circle cx="44" cy="0" r="18" fill="none" stroke="#aebbd6" stroke-width="1" opacity="0.45"/>
-        <!-- impulse engine glow at saucer rear -->
-        <ellipse cx="-7" cy="0" rx="4" ry="9" fill="#ff7a4a" opacity="0.8"><animate attributeName="opacity" values="0.5;0.95;0.5" dur="2s" repeatCount="indefinite"/></ellipse>
-        <!-- bridge -->
-        <circle cx="44" cy="0" r="7" fill="url(#u-hull)"/>
-        <circle cx="44" cy="0" r="2.4" fill="#ffce7b"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/></circle>
-        <!-- saucer-rim running lights -->
-        <circle cx="95"  cy="0"   r="1.9" fill="#ff5e5e"><animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/></circle>
-        <circle cx="44"  cy="-51" r="1.6" fill="#5effa0"><animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/></circle>
-        <circle cx="44"  cy="51"  r="1.6" fill="#ff5e5e"><animate attributeName="opacity" values="0;1;0" dur="2.4s" repeatCount="indefinite"/></circle>
+        <!-- neck connecting saucer to hull -->
+        <path d="M2 8 L 22 1 L 28 11 L 8 18 Z" fill="url(#u-hull2)"/>
+
+        <!-- saucer (primary hull — disc tilted to reveal the dish, domed shading) -->
+        <ellipse cx="22" cy="-6" rx="56" ry="24" fill="url(#u-saucer)"/>
+        <ellipse cx="22" cy="-6" rx="56" ry="24" fill="none" stroke="#7e8caa" stroke-width="1.4" opacity="0.6"/>
+        <ellipse cx="22" cy="-4" rx="38" ry="15" fill="none" stroke="#9fb0d0" stroke-width="1.1" opacity="0.5"/>
+        <ellipse cx="22" cy="-3" rx="19" ry="7" fill="none" stroke="#aebbd6" stroke-width="1" opacity="0.45"/>
+        <!-- bridge dome on top -->
+        <ellipse cx="22" cy="-10" rx="9" ry="5" fill="url(#u-hull)"/>
+        <circle cx="22" cy="-11" r="2.3" fill="#ffce7b"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/></circle>
+        <!-- leading-edge + trailing running lights -->
+        <circle cx="76" cy="-5" r="1.8" fill="#ff5e5e"><animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/></circle>
+        <circle cx="-32" cy="-6" r="1.6" fill="#5effa0"><animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/></circle>
       </g>
     </g>
   </g>

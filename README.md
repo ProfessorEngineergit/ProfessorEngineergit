@@ -82,12 +82,12 @@ class BahrianNovotny:
 ## 📊 Stats from orbit
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ProfessorEngineergit&show_icons=true&hide_border=true&bg_color=03040A&title_color=FFCE7B&icon_color=FF8A3C&text_color=C7D4EE&include_all_commits=true&count_private=true" alt="stats" />
+  <img height="170" src="https://github-readme-stats-professorengineergits-projects.vercel.app/api?username=ProfessorEngineergit&show_icons=true&hide_border=true&bg_color=03040A&title_color=FFCE7B&icon_color=FF8A3C&text_color=C7D4EE&include_all_commits=true&count_private=true" alt="stats" />
   <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=ProfessorEngineergit&hide_border=true&background=03040A&stroke=1B2748&ring=FFCE7B&fire=FF8A3C&currStreakLabel=FFCE7B&sideLabels=C7D4EE&dates=54618A&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="streak" />
 </p>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProfessorEngineergit&layout=compact&hide_border=true&bg_color=03040A&title_color=FFCE7B&text_color=C7D4EE&langs_count=8" alt="top languages" />
+  <img height="170" src="https://github-readme-stats-professorengineergits-projects.vercel.app/api/top-langs/?username=ProfessorEngineergit&layout=compact&hide_border=true&bg_color=03040A&title_color=FFCE7B&text_color=C7D4EE&langs_count=8" alt="top languages" />
 </p>
 
 <p align="center">

@@ -22,7 +22,7 @@
 <!-- ============ TYPING SUBTITLE ============ -->
 <p align="center">
   <a href="https://professorengineergit.github.io/Bahrian_Novotny_My_Universe/">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=900&color=FFCE7B&center=true&vCenter=true&width=720&lines=Building+the+next+big+thing.;Science+%C2%B7+Technology+%C2%B7+Endless+possibilities.;Fly+a+starship+through+my+universe+%E2%86%92" alt="typing subtitle" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=900&color=FFCE7B&center=true&vCenter=true&width=720&lines=Web+apps%2C+hardware+and+space.;Learning+through+practical+projects.;Fly+a+starship+through+my+universe+%E2%86%92" alt="typing subtitle" />
   </a>
 </p>
 
@@ -41,23 +41,11 @@
 
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> About me
 
-```python
-class BahrianNovotny:
-    def __init__(self):
-        self.age          = 16
-        self.location     = "Frankfurt am Main, Germany"
-        self.role         = "High-school student & self-taught engineer"
-        self.fascination  = ["science", "technology", "the endless possibilities they open up"]
-        self.currently    = "Working on the next big thing 🚀"
+I'm **Bahrian Novotny**, a high-school student in Frankfurt am Main, Germany. I build web applications, hardware interfaces and space-themed visual experiments, and share selected work on [YouTube](https://youtube.com/channel/UClMP3sHebXLuIyhBbBVXiKw).
 
-    def motto(self):
-        return "Curiosity compiles."
-```
+My repositories include prototypes, learning exercises, planning documents and applications with published releases. Check each README for its current scope and setup. Public development history includes contributions from AI coding tools; repository-specific notes link to explicit evidence where available. A tool's involvement does not by itself establish that a project is tested or production-ready.
 
-- 🔭 I build things at the intersection of **web, hardware control, and space-grade curiosity**.
-- 🛰️ My portfolio literally lets you **fly a starship through my universe** to explore my projects.
-- 🎥 I share what I make on **YouTube**.
-- 🌱 Currently going deeper into **TypeScript, Swift, Three.js, and creative engineering**.
+I work with TypeScript, JavaScript, Swift, Python and Three.js. The [portfolio](https://professorengineergit.github.io/Bahrian_Novotny_My_Universe/) presents projects as an interactive 3D scene.
 
 ---
 
@@ -113,3 +101,7 @@ class BahrianNovotny:
   <img src="https://raw.githubusercontent.com/ProfessorEngineergit/ProfessorEngineergit/main/header.svg" width="0" height="0" alt="" />
   <strong>— still building. ⚡</strong>
 </p>
+
+## Development and AI assistance
+
+The default-branch history includes contributions explicitly attributed to GitHub Copilot ([example](https://github.com/ProfessorEngineergit/ProfessorEngineergit/commit/30d633e350cbf57d70c214a13e57f9fb95ff1b1c)). This documents AI involvement in those contributions; it does not establish the origin of every line or independent validation. Existing author, co-author and session records are retained.

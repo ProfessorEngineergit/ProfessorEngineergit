@@ -1,6 +1,6 @@
 <!--
   ╔══════════════════════════════════════════════════════════════╗
-  ║  Bahrian Novotny — GitHub Profile README                       ║
+  ║  Bahrian Novotny - GitHub Profile README                       ║
   ║  Repo must be named:  ProfessorEngineergit/ProfessorEngineergit ║
   ║  Files needed in repo root: README.md, header.svg              ║
   ║  Workflows in .github/workflows/: snake.yml, 3d-contrib.yml    ║
@@ -15,7 +15,7 @@
 <!-- ============ UNIVERSE BANNER (click to fly through it) ============ -->
 <p align="center">
   <a href="https://professorengineergit.github.io/Bahrian_Novotny_My_Universe/">
-    <img src="https://raw.githubusercontent.com/ProfessorEngineergit/ProfessorEngineergit/main/universe.svg" width="100%" alt="Enter my universe — click to fly a starship through my projects" />
+    <img src="https://raw.githubusercontent.com/ProfessorEngineergit/ProfessorEngineergit/main/universe.svg" width="100%" alt="Enter my universe - click to fly a starship through my projects" />
   </a>
 </p>
 
@@ -43,7 +43,7 @@
 
 I'm **Bahrian Novotny**, a high-school student in Frankfurt am Main, Germany. I build web applications, hardware interfaces and space-themed visual experiments, and share selected work on [YouTube](https://youtube.com/channel/UClMP3sHebXLuIyhBbBVXiKw).
 
-My repositories include prototypes, learning exercises, planning documents and applications with published releases. Check each README for its current scope and setup. Public development history includes contributions from AI coding tools; repository-specific notes link to explicit evidence where available. A tool's involvement does not by itself establish that a project is tested or production-ready.
+My repositories include prototypes, learning exercises, planning documents and applications with published releases. Check each README for its current scope and setup. Project READMEs distinguish AI contributions to code from help with documentation, using recorded attribution where available.
 
 I work with TypeScript, JavaScript, Swift, Python and Three.js. The [portfolio](https://professorengineergit.github.io/Bahrian_Novotny_My_Universe/) presents projects as an interactive 3D scene.
 
@@ -57,7 +57,7 @@ I work with TypeScript, JavaScript, Swift, Python and Three.js. The [portfolio](
 
 ---
 
-## 🌌 My commit universe — in 3D
+## 🌌 My commit universe - in 3D
 
 > A 3D render of my contribution calendar, regenerated automatically every day.
 
@@ -99,9 +99,9 @@ I work with TypeScript, JavaScript, Swift, Python and Three.js. The [portfolio](
 </p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/ProfessorEngineergit/ProfessorEngineergit/main/header.svg" width="0" height="0" alt="" />
-  <strong>— still building. ⚡</strong>
+  <strong>- still building. ⚡</strong>
 </p>
 
-## Development and AI assistance
+## Documentation
 
-The default-branch history includes contributions explicitly attributed to GitHub Copilot ([example](https://github.com/ProfessorEngineergit/ProfessorEngineergit/commit/30d633e350cbf57d70c214a13e57f9fb95ff1b1c)). This documents AI involvement in those contributions; it does not establish the origin of every line or independent validation. Existing author, co-author and session records are retained.
+GitHub Copilot contributed to the documentation ([record](https://github.com/ProfessorEngineergit/ProfessorEngineergit/commit/b089651770f009a06cf938f7dda699baf9dc4b3a)). This does not establish AI-generated application code.
